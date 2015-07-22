@@ -96,7 +96,7 @@ int __clone2(int (*fn)(void *), void *child_stack_base,
 #include <linux/unistd.h>
 #include <linux/cdrom.h>
 #include <linux/hdreg.h>
-#include <linux/soundcard.h>
+#include <linux/soundcard.h.oss3>
 #include <linux/kd.h>
 #include <linux/mtio.h>
 #include <linux/fs.h>

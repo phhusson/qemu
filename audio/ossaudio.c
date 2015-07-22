@@ -25,7 +25,7 @@
 #include <sys/mman.h>
 #include <sys/types.h>
 #include <sys/ioctl.h>
-#include <sys/soundcard.h>
+#include <sys/soundcard.h.oss3>
 #include "qemu-common.h"
 #include "qemu/main-loop.h"
 #include "qemu/host-utils.h"
