@@ -1109,6 +1109,11 @@ struct target_pollfd {
 #define TARGET_DM_TARGET_MSG          TARGET_IOWRU(0xfd, 0x0e)
 #define TARGET_DM_DEV_SET_GEOMETRY    TARGET_IOWRU(0xfd, 0x0f)
 
+/* ashmem */
+#define TARGET_ASHMEM_SET_NAME TARGET_IOWU(0x77, 0x01)
+//#define TARGET_ASHMEM_SET_SIZE TARGET_IOR(0x77, 0x03, uint32_t)
+#define TARGET_ASHMEM_SET_SIZE 0x40047703
+
 /* from asm/termbits.h */
 
 #define TARGET_NCC 8
